@@ -1,22 +1,20 @@
 <template>
-  <footer>
-    <h2>This is chocolate btw???</h2>
-  </footer>
+  <section>
+    <h3>This is a welcome section!</h3>
+  </section>
 </template>
 
 <script>
 // export for use in other files/components
   export default {
-    name: "page-footer"
+    name: "home-welcome"
   }
 </script>
 
 <style scoped>
-  footer {
+  section {
+    background: hotpink;
     display: grid;
     place-items: center;
-    min-height: 5vh;
-    max-width: 100%;
-    background: chocolate;
   }
 </style>
